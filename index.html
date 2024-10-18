@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <title>Burger Shop</title>
+    </head>
+    <body>
+        <header class="header">
+            <img src="burger.png" alt="Burger-Shop">
+            <div class="header-content">
+                <h1>Welcome to our Burger-Shop</h1>
+                <p>Delicious burgers made just for you</p>
+                <a href="#menu" class="customize button">customize</a>
+            </div>
+        </header>
+        <section id="menu" class="menu">
+
+            <div class="ingrediants">
+                <h2>Choose your ingrediants</h2>
+                <label>
+                    <input type="checkbox" class="ingrediant" data-price ="10">
+                    lettuce
+                </label>
+                <label>
+                    <input type="checkbox" class="ingrediant" data-price ="15">
+                    tomato
+                </label>
+                <label>
+                    <input type="checkbox" class="ingrediant" data-price ="20">
+                    onion
+                </label>
+                <label>
+                    <input type="checkbox" class="ingrediant" data-price ="30">
+                    cheese
+                </label>
+                <label>
+                    <input type="checkbox" class="ingrediant" data-price ="70">
+                    veg-patties
+                </label>
+                <label>
+                    <input type="checkbox" class="ingrediant" data-price ="90">
+                    chicken-patties
+                </label>
+            </div>
+
+        </section>
+        <div class="checkout">
+            <h2>checkout</h2>
+            <p>total price : &#8377; <span id="totalprice"> 0 </span></p>
+            <button id="orderButton"> place order</button>
+        </div>
+
+        <script src = "project.js"> </script>
+
+    </body>
+</html>
